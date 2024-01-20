@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <button onclick="getComputerChoice()">Click Here</button>
+    <script>
+        function getComputerChoice() {
+            let rpsOptions = ["Rock", "Paper", "Scissors"]
+            let randomIndex = Math.floor(Math.random()*3);
+            console.log(randomIndex);
+            let computerChoice = rpsOptions[randomIndex]
+            console.log(computerChoice)
+
+        }
+    </script>
+</body>
+</html>
